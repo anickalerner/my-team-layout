@@ -38,3 +38,17 @@
 .portrait-ratio {
     @include aspect-ratio(9, 16);
 }
+
+.bg-dark{
+    background-color: $clr2;
+    color: $clr4;
+}
+
+.bg-light{
+    background-color: $clr1;
+    color: $clr4;
+}
+.bg-contrast{
+    background-color: $clr3;
+    color: $clr2;
+}

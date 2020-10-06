@@ -4,7 +4,7 @@
 
 ::selection {
     background-color: $clr1;
-    color: $clr6;
+    color: $clr4;
 }
 
 html {
@@ -19,13 +19,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: caveat;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
     margin: 0 0 0.6em;
     line-height: 1;
 }
 
 h1 {
-    font-size: rem(68px);
+    font-size: rem(48px);
 }
 
 img {
@@ -35,4 +36,7 @@ img {
 p {
     margin: 0 0 1em;
     max-width: 40ch;
+}
+section{
+    padding: rem(140px) 0 rem(150px);
 }
